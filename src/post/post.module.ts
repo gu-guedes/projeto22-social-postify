@@ -11,4 +11,4 @@ import { PublicationRepository } from '../publications/publication.repository';
   providers: [PostRepository, PostService, PublicationRepository],
   exports: [PostService],
 })
-export class PostModule {}
+export class PostModule {} 

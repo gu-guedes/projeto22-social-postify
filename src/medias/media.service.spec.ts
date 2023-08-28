@@ -7,7 +7,6 @@ describe('MediasService', () => {
 
   beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({
-
       imports: [AppModule]
     }).compile();
 
